@@ -18,6 +18,11 @@ Hardware – PCs, Cyclone II , USB flasher
 
 **Logic Diagram**
 
+![Screenshot 2024-12-05 132633](https://github.com/user-attachments/assets/d1be5cca-6e87-4144-9a1a-342a042ee182)
+
+![Screenshot 2024-12-10 143326](https://github.com/user-attachments/assets/f29977cb-6ea0-48b0-ab53-12bc3551a29a)
+
+
 **Procedure**
 
 1.	Type the program in Quartus software.
@@ -38,23 +43,45 @@ input a,b,c,d;
 output f1;
 assign f1=((~b & ~d)|(~a & b & d)|(a & b & ~c));
 endmodule
+
+module funct2(w,x,y,z,f2);
+ input w,x,y,z;
+ output f2;
+ assign f2=((~y & z)|( w & y )|(x & y));
+ endmodule
+```
+![Screenshot 2024-12-10 143546](https://github.com/user-attachments/assets/77370a30-9f80-4508-8218-bf2e034b3ef7)
+
+
+![Screenshot 2024-12-10 143554](https://github.com/user-attachments/assets/9014b1a8-cb45-4a34-94d6-6bb139a23e05)
+
+
+```
+Developed by:T.PRASANTH
+RegisterNumber:24900510
 ```
 
-/* Program to implement the given logic function and to verify its operations in quartus using Verilog programming. 
-
-Developed by: RegisterNumber:*/
-
-
 **RTL realization**
-![Screenshot 2024-12-10 125439](https://github.com/user-attachments/assets/3e815892-80c9-4801-8dac-1d1333f8f595)
+
+![Screenshot 2024-12-10 143736](https://github.com/user-attachments/assets/7b660fe9-b1c3-42a4-9179-bd2456925065)
+
+
+![Screenshot 2024-12-10 143739](https://github.com/user-attachments/assets/44729912-7de1-4b73-9369-348271800c49)
+
 
 **Output:**
 
 **RTL**
 
+![Screenshot 2024-12-10 143736](https://github.com/user-attachments/assets/7b660fe9-b1c3-42a4-9179-bd2456925065)
+
+![Screenshot 2024-12-10 143739](https://github.com/user-attachments/assets/44729912-7de1-4b73-9369-348271800c49)
 
 **Timing Diagram**
-![Screenshot 2024-12-10 125744](https://github.com/user-attachments/assets/d0564daa-cd13-43e7-bd32-345b6717e001)
+
+![Screenshot 2024-12-10 143827](https://github.com/user-attachments/assets/d146538d-60d6-4d9d-acf5-64ae5e330faa)
+
+![Screenshot 2024-12-10 143833](https://github.com/user-attachments/assets/8af8e7c3-efd0-4cb8-861e-42733abd2fe9)
 
 **Result:**
 
