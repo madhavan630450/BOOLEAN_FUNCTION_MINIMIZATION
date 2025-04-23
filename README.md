@@ -57,8 +57,8 @@ module funct2(w,x,y,z,f2);
 
 
 ```
-Developed by:T.PRASANTH
-RegisterNumber:24900510
+Developed by:MARIMUTHU MATHAVAN
+RegisterNumber:212224230153
 ```
 
 **RTL realization**
